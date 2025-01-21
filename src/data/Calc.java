@@ -41,7 +41,7 @@ public class Calc
     
     /*este metodo se encarga de coger el input del usuario para saber que operacion quiere
      y la hace*/
-public void RealizarOperacion(int op)
+    public void RealizarOperacion(int op)
     {
         switch(op)
         {
