@@ -16,7 +16,7 @@ public class Opcion {
         this.cod = cod;
         this.texto = texto;
     }
-/*Despues haremos un metodo para visibilizar las opciones, que usaremos en el futuro*/    
+    /*Despues haremos un metodo para visibilizar las opciones, que usaremos en el futuro*/    
     public void visOp()
     {
         System.out.println(cod +(": ") + texto);
