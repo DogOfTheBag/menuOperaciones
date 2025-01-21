@@ -36,7 +36,7 @@ public class Calc
     public void dividir()
     {
         final float resultado = num1 / num2;
-        JOptionPane.showMessageDialog(null,"El cociente de la division entre " + num1 + " y " + num2 + " es: " + resultado + " y el resto es " + num1 % num2);
+        JOptionPane.showMessageDialog(null,"El cociente de la division entre " + num1 + " y " + num2 + " es: " + resultado);
     }
     
     /*este metodo se encarga de coger el input del usuario para saber que operacion quiere
