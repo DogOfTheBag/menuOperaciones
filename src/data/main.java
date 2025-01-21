@@ -1,7 +1,5 @@
 package data;
 
-
-
 /**
  *
  * @author Alberto
@@ -22,15 +20,15 @@ public class main {
                 new Opcion (5,"Salir"),
             
         };
-    /*Creo el objeto del menu, en el que incluyo el array de opciones y el titulo */
-    menu m1 = new menu(Ops, "Calculadora");
-    int opcion;
-    do
-    {
-        m1.visMenu();
-        opcion = m1.GestionarMenu();
-    }while (opcion != 5);
-    //Este  menu se repetira hasta que el usuario pulse 5
-}
+        /*Creo el objeto del menu, en el que incluyo el array de opciones y el titulo */
+        menu m1 = new menu(Ops, "Calculadora");
+        int opcion;
+        do
+        {
+            m1.visMenu();
+            opcion = m1.GestionarMenu();
+        }while (opcion != 5);
+        //Este  menu se repetira hasta que el usuario pulse 5
+    }
 
 }
